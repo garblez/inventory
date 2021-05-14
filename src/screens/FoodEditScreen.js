@@ -5,7 +5,7 @@ export default class KitchenScreen extends React.Component {
     render() {
       return (
         <View>
-          <Text>On the Food Edit! screen</Text>
+          <Text>{this.props.data.name}</Text>
         </View>
       );
     }
